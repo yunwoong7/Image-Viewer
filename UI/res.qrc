@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="zoom">
+    <file>icon/zoom_in.png</file>
+    <file>icon/zoom_out.png</file>
+    <file>icon/zoom_to_actual_size.png</file>
+    <file>icon/zoom_to_extents.png</file>
+  </qresource>
+  <qresource prefix="main">
+    <file>icon/main.png</file>
+  </qresource>
+  <qresource prefix="file">
+    <file>icon/open_image.png</file>
+  </qresource>
+</RCC>
