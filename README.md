@@ -1,7 +1,3 @@
----
-typora-root-url: ./
----
-
 <h2 align="center">
   Image Viewer
 </h2>
