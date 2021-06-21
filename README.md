@@ -107,7 +107,7 @@ Image-Viewer/
 
 1. **Code lay-out**
 
-2. - 들여쓰기는 공백 4칸
+   - 들여쓰기는 공백 4칸
    - 한 줄은 최대 79자까지
    - 최상위(top-level) 함수와 클래스 정의는 2줄씩 띄어 작성
    - 클래스 내의 메소드 정의는 1줄씩 띄어 작성
@@ -116,37 +116,23 @@ Image-Viewer/
    - 불필요한 주석은 작성하지 않음
    - 한 줄 주석은 최소화
    - 언더스코어(_) 시작하는 클래스/함수/변수/메서드는 한 모듈내에서만 사용하는 Private 이며 From module import * 시 _로 시작하는 것들은 임포트 시 모두 무시됨 *(그러나, 파이썬은 진정한 의미의 private을 지원하고 있지는 않기 때문에 private을 완전히 강제할 수는 없다. 즉, 위와 같은 임포트문에서는 무시되지만 직접 가져다 쓰거나 호출을 할 경우엔 사용이 가능함)*
-
  
 
 2. **Package and Module Names**
 
-1. - 짧은 소문자로만 구성된 이름 (가독성을 개선할 수 있다면 밑줄을 사용할 수 있음)
+   - 짧은 소문자로만 구성된 이름 (가독성을 개선할 수 있다면 밑줄을 사용할 수 있음) *Ex) canvas.py, canvas_widget.py*
 
-   - - Ex) canvas.py, canvas_widget.py
-
- 
-
+    
 3. **Class Names**
+   - 클래스 이름은 일반적으로 CapWord 관례를 따름 *Ex) MyWindows*
 
-1. - 클래스 이름은 일반적으로 CapWord 관례를 따름
-
-   - - Ex) MyWindows
-
- 
-
+    
 4. **Type variable names**
-
-1. - 변수명에서 _(밑줄)은 위치에 따라 다음과 같은 의미가 있음
-
-   - - Ex) step_list
-     - 내부적으로 사용되는 변수 Ex) _single_leading_underscore
-
- 
+   - 변수명에서 _(밑줄)은 위치에 따라 다음과 같은 의미가 있음 *Ex) step_list*
+   - 내부적으로 사용되는 변수 *Ex) _single_leading_underscore*
+    
 
 5. **Function Names**
-
-1. - 함수명은 소문자로 시작하고 가독성을 위해 대소문자 혼용하여 사용
-
-2. 1. - Ex)  setValue
-      - 내부적으로 사용되는 함수 Ex) _setValue
+   - 함수명은 소문자로 시작하고 가독성을 위해 대소문자 혼용하여 사용 *Ex) setValue*
+   - 내부적으로 사용되는 함수 *Ex) _setValue*
+    
