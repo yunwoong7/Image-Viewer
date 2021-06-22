@@ -156,28 +156,10 @@ Image-Viewer/
 
 ## Installation
 
-**Install Anaconda**
+| Install                | See                                                          | Download                                                     | Etc.                                                   |
+| :--------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | ------------------------------------------------------ |
+| **Anaconda**           | **[Anaconda3 설치가이드 (Windows)](https://yunwoong.tistory.com/2?category=839341 )** | **[Anaconda3 Download](https://www.anaconda.com/products/individual#Downloads)** |                                                        |
+| **Pycharm**            | **[Pycharm 설치가이드 (Windows)](https://yunwoong.tistory.com/4?category=839341 )** | **[Pycharm Download](https://www.jetbrains.com/)**           |                                                        |
+| **Create Environment** | **[Python 가상환경 구성](https://yunwoong.tistory.com/3?category=839341 )** |                                                              | *반드시 가상환경을 구성하시고 개발을 하시기 바랍니다.* |
+| **PyQt**               | **[PyQt 설치 및 실행](https://yunwoong.tistory.com/7?category=839346 )** |                                                              |                                                        |
 
-See: [Anaconda3 설치가이드 (Windows)](https://yunwoong.tistory.com/2?category=839341 )
-
-Download  [Anaconda3](https://www.anaconda.com/products/individual#Downloads)
-
-
-
-**Install Pycharm**
-
-See: [Pycharm 설치가이드 (Windows)](https://yunwoong.tistory.com/4?category=839341 )
-
-Download [Pycharm](https://www.jetbrains.com/)
-
-
-
-**Create Environment **
-
-See: [Python 가상환경 구성](https://yunwoong.tistory.com/3?category=839341 )  *(반드시 가상환경을 구성하시고 개발을 하시기 바랍니다.)*
-
-
-
-**Install PyQt**
-
-See: [PyQt 설치 및 실행](https://yunwoong.tistory.com/7?category=839346 )
