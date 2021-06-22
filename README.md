@@ -152,3 +152,32 @@ Image-Viewer/
    - 함수명은 소문자로 시작하고 가독성을 위해 대소문자 혼용하여 사용 *Ex) setValue*
    - 내부적으로 사용되는 함수 *Ex) _setValue*
 
+
+
+## Installation
+
+**Install Anaconda**
+
+See: [Anaconda3 설치가이드 (Windows)](https://yunwoong.tistory.com/2?category=839341 )
+
+Download  [Anaconda3](https://www.anaconda.com/products/individual#Downloads)
+
+
+
+**Install Pycharm**
+
+See: [Pycharm 설치가이드 (Windows)](https://yunwoong.tistory.com/4?category=839341 )
+
+Download [Pycharm](https://www.jetbrains.com/)
+
+
+
+**Create Environment **
+
+See: [Python 가상환경 구성](https://yunwoong.tistory.com/3?category=839341 )  *(반드시 가상환경을 구성하시고 개발을 하시기 바랍니다.)*
+
+
+
+**Install PyQt**
+
+See: [PyQt 설치 및 실행](https://yunwoong.tistory.com/7?category=839346 )
