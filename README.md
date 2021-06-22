@@ -24,6 +24,15 @@ Image-Viewer 프로그램을 협업하여 개발하는 공간입니다.
 </div>
 
 
+## Team
+
+- 백승환 매니저 Repository < Link >
+- 강현구 매니저 Repository < Link >
+- 한종하 매니저 Repository < Link >
+- 염정훈 매니저 Repository < Link >
+- 김연준 매니저 Repository < Link >
+
+
 
 ## GUI Draft
 
@@ -142,3 +151,4 @@ Image-Viewer/
 5. **Function Names**
    - 함수명은 소문자로 시작하고 가독성을 위해 대소문자 혼용하여 사용 *Ex) setValue*
    - 내부적으로 사용되는 함수 *Ex) _setValue*
+
