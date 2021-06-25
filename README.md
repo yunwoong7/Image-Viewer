@@ -26,11 +26,11 @@ Image-Viewer 프로그램을 협업하여 개발하는 공간입니다.
 
 ## Team
 
-- 백승환 매니저 Repository < Link >
-- 강현구 매니저 Repository < Link >
+- [백승환 매니저 Repository](https://github.com/jasonbaek97/ImageDocView )
+- [강현구 매니저 Repository](https://github.com/KHG-git/Image-Viewer )
 - 한종하 매니저 Repository < Link >
 - 염정훈 매니저 Repository < Link >
-- 김연준 매니저 Repository < Link >
+- [김연준 매니저 Repository](https://github.com/KimYeonJun/Image-Viewer )
 
 
 
