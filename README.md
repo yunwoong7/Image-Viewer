@@ -66,6 +66,16 @@ Viewer 의 다양한 기능에 따라 GUI 형태는 변경 될 수 있으며 아
 
 ## Features
 
+| 일정                   | 내용                                                         | 비고 |
+| ---------------------- | ------------------------------------------------------------ | ---- |
+| **2021-06-29 ~ 07-06** | ◆ UI 설계 (Qt Designer)<br/>   - Qlabel<br/>   - QToolBar, QStatusBar, Qmenu, Qaction, <br/>     QDockWidget, QTabWidget<br/>   - QVBoxLayout, QHBoxLayout, QGridLayout<br/>   - QSlitter<br/>   - QPushButton, QCheckBox, QRadioButton<br/>   - QComboBox, QSpinBox, QLineEdit, Qslider..<br/>   - QTreeWidget, QTableWidget | ◀◀◀  |
+| 2021-07-06 ~ 07-13     | ◆ 이미지 열기<br/>   - 파일 열기<br/>   - 폴더 열기<br/>   - 이미지 다운로드(URL 주소)<br/>   - Drag & Drop 으로 이미지 파일 열기 |      |
+| 2021-07-13 ~ 07-20     | ◆ 이미지 뷰 & Widget 기능<br/>   - 확대/축소, 이미지 Fit<br/>   - 이미지 정보 표시 (size, channel, 파일명 등)<br/>   - Status bar (image size)<br/>   - 파일 목록 필터 |      |
+| 2021-07-20 ~ 08-03     | ◆ 이미지 수정<br/>   - 이미지 회전<br/>   - 이미지 자르기<br/>   - 노이즈 제거 |      |
+| 2021-08-03 ~ 08-10     | ◆ 관심 영역 찾기<br/>   - Barcode, QR code, Data Matrix<br/>   - Model을 이용한 찾기 (사람, 얼굴, 자동차 등) |      |
+
+
+
 - [ ] config 활용
 
 - [ ] 이미지 파일 열기
@@ -89,6 +99,8 @@ Viewer 의 다양한 기능에 따라 GUI 형태는 변경 될 수 있으며 아
 - [ ] 파일 목록 필터
 
 - [ ] Drag & Drop 으로 이미지 파일 열기
+
+  
 
   
 
