@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1034</width>
+    <height>759</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,9 +18,267 @@
     <normaloff>:/main/icon/main.png</normaloff>:/main/icon/main.png</iconset>
   </property>
   <widget class="QWidget" name="canvas_area">
-   <layout class="QGridLayout" name="gridLayout_2">
+   <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0">
-     <layout class="QGridLayout" name="layout_canvas"/>
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QWidget" name="">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="placeholderText">
+           <string>Search...</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTreeWidget" name="treeWidget">
+          <property name="autoExpandDelay">
+           <number>-1</number>
+          </property>
+          <attribute name="headerVisible">
+           <bool>false</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string/>
+           </property>
+          </column>
+          <item>
+           <property name="text">
+            <string>로컬디스크  (C:)</string>
+           </property>
+           <property name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/folder/icon/hdd.png</normaloff>:/folder/icon/hdd.png</iconset>
+           </property>
+           <item>
+            <property name="text">
+             <string>Users</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/folder/icon/opened_folder.png</normaloff>:/folder/icon/opened_folder.png</iconset>
+            </property>
+            <item>
+             <property name="text">
+              <string>Administrator</string>
+             </property>
+             <property name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/folder/icon/opened_folder.png</normaloff>:/folder/icon/opened_folder.png</iconset>
+             </property>
+             <item>
+              <property name="text">
+               <string>Pictures</string>
+              </property>
+              <property name="icon">
+               <iconset resource="res.qrc">
+                <normaloff>:/folder/icon/opened_folder.png</normaloff>:/folder/icon/opened_folder.png</iconset>
+              </property>
+              <item>
+               <property name="text">
+                <string>image_001.jpg</string>
+               </property>
+               <property name="icon">
+                <iconset resource="res.qrc">
+                 <normaloff>:/file/icon/image.png</normaloff>:/file/icon/image.png</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>image_002.jpg</string>
+               </property>
+               <property name="icon">
+                <iconset resource="res.qrc">
+                 <normaloff>:/file/icon/image.png</normaloff>:/file/icon/image.png</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>image_003.jpg</string>
+               </property>
+               <property name="icon">
+                <iconset resource="res.qrc">
+                 <normaloff>:/file/icon/image.png</normaloff>:/file/icon/image.png</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>image_004.jpg</string>
+               </property>
+               <property name="icon">
+                <iconset resource="res.qrc">
+                 <normaloff>:/file/icon/image.png</normaloff>:/file/icon/image.png</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>image_005.jpg</string>
+               </property>
+               <property name="icon">
+                <iconset resource="res.qrc">
+                 <normaloff>:/file/icon/image.png</normaloff>:/file/icon/image.png</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>image_006.jpg</string>
+               </property>
+               <property name="icon">
+                <iconset resource="res.qrc">
+                 <normaloff>:/file/icon/image.png</normaloff>:/file/icon/image.png</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>image_007.jpg</string>
+               </property>
+               <property name="icon">
+                <iconset resource="res.qrc">
+                 <normaloff>:/file/icon/image.png</normaloff>:/file/icon/image.png</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>image_008.jpg</string>
+               </property>
+               <property name="icon">
+                <iconset resource="res.qrc">
+                 <normaloff>:/file/icon/image.png</normaloff>:/file/icon/image.png</iconset>
+               </property>
+              </item>
+             </item>
+            </item>
+           </item>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="">
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QFrame" name="frame_zoom">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>50</height>
+           </size>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/zoom/icon/zoom_out.png</normaloff>:/zoom/icon/zoom_out.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSlider" name="horizontalSlider">
+             <property name="maximum">
+              <number>100</number>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="spinBox">
+             <property name="maximum">
+              <number>100</number>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/zoom/icon/zoom_in.png</normaloff>:/zoom/icon/zoom_in.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/zoom/icon/zoom_to_actual_size.png</normaloff>:/zoom/icon/zoom_to_actual_size.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_4">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/zoom/icon/zoom_to_extents.png</normaloff>:/zoom/icon/zoom_to_extents.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <layout class="QGridLayout" name="layout_canvas">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>image</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -29,7 +287,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1034</width>
      <height>21</height>
     </rect>
    </property>
@@ -55,7 +313,11 @@
    <addaction name="menuView"/>
    <addaction name="menuHelp"/>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="statusTip">
+    <string>600 X 800</string>
+   </property>
+  </widget>
   <widget class="QToolBar" name="toolBar">
    <property name="windowTitle">
     <string>toolBar</string>
@@ -68,10 +330,349 @@
    </attribute>
    <addaction name="action_openFile"/>
    <addaction name="separator"/>
-   <addaction name="action_zoomIn"/>
-   <addaction name="action_zoomOut"/>
-   <addaction name="action_zoomToActualSize"/>
-   <addaction name="action_zoomToExtents"/>
+   <addaction name="action_rotate"/>
+   <addaction name="action_crop"/>
+   <addaction name="action_hue"/>
+   <addaction name="action_inverse"/>
+   <addaction name="action_erase"/>
+   <addaction name="action_resize"/>
+   <addaction name="action_flipHorizontal"/>
+   <addaction name="action_textBox"/>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget">
+   <property name="windowTitle">
+    <string>Image Preprosessing</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents">
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QTableWidget" name="tableWidget">
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>34</number>
+       </attribute>
+       <attribute name="horizontalHeaderStretchLastSection">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="verticalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>새 행</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>새 행</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/preprosessing/icon/eye_checked.png</normaloff>:/preprosessing/icon/eye_checked.png</iconset>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>Rotate</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/preprosessing/icon/rotate.png</normaloff>:/preprosessing/icon/rotate.png</iconset>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/preprosessing/icon/eye_checked.png</normaloff>:/preprosessing/icon/eye_checked.png</iconset>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="text">
+         <string>Crop</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/preprosessing/icon/crop.png</normaloff>:/preprosessing/icon/crop.png</iconset>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/preprosessing/icon/eye_unchecked.png</normaloff>:/preprosessing/icon/eye_unchecked.png</iconset>
+        </property>
+       </item>
+       <item row="2" column="1">
+        <property name="text">
+         <string>Flip Horizontal</string>
+        </property>
+        <property name="background">
+         <brush brushstyle="NoBrush">
+          <color alpha="255">
+           <red>167</red>
+           <green>167</green>
+           <blue>167</blue>
+          </color>
+         </brush>
+        </property>
+        <property name="foreground">
+         <brush brushstyle="NoBrush">
+          <color alpha="255">
+           <red>160</red>
+           <green>160</green>
+           <blue>160</blue>
+          </color>
+         </brush>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/preprosessing/icon/flip_horizontal.png</normaloff>:/preprosessing/icon/flip_horizontal.png</iconset>
+        </property>
+       </item>
+       <item row="3" column="0">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="textAlignment">
+         <set>AlignCenter</set>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/preprosessing/icon/eye_checked.png</normaloff>:/preprosessing/icon/eye_checked.png</iconset>
+        </property>
+       </item>
+       <item row="3" column="1">
+        <property name="text">
+         <string>Hue</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/preprosessing/icon/hue.png</normaloff>:/preprosessing/icon/hue.png</iconset>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_3">
+   <property name="windowTitle">
+    <string>Object Detection</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_3">
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="0" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Detection Type</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox">
+         <property name="currentIndex">
+          <number>1</number>
+         </property>
+         <item>
+          <property name="text">
+           <string>Single</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Multi</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="0">
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QRadioButton" name="radioButton">
+         <property name="text">
+          <string>Barcode</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_2">
+         <property name="text">
+          <string>QR code</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_3">
+         <property name="text">
+          <string>Data Matrix</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_4">
+         <property name="text">
+          <string>Aztec</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="0">
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_4">
+   <property name="windowTitle">
+    <string>Setting</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_4">
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="0" column="0">
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="tabPosition">
+        <enum>QTabWidget::South</enum>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="tab">
+        <attribute name="title">
+         <string>View</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_6">
+         <item row="0" column="0">
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <widget class="QCheckBox" name="checkBox">
+             <property name="text">
+              <string>Show Coodinates</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <widget class="QLabel" name="label_3">
+               <property name="minimumSize">
+                <size>
+                 <width>60</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>Brightness</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSlider" name="horizontalSlider_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="minimumSize">
+                <size>
+                 <width>60</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>Contrast</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSlider" name="horizontalSlider_3">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="tab_2">
+        <attribute name="title">
+         <string>Save</string>
+        </attribute>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <action name="action_open">
    <property name="text">
@@ -83,52 +684,52 @@
     <string>Exit</string>
    </property>
   </action>
-  <action name="action_zoomIn">
+  <action name="action_rotate">
    <property name="icon">
     <iconset resource="res.qrc">
-     <normaloff>:/zoom/icon/zoom_in.png</normaloff>:/zoom/icon/zoom_in.png</iconset>
+     <normaloff>:/preprosessing/icon/rotate.png</normaloff>:/preprosessing/icon/rotate.png</iconset>
    </property>
    <property name="text">
-    <string>Zoom In</string>
+    <string>Rotate</string>
    </property>
    <property name="toolTip">
-    <string>Zoom In</string>
+    <string>Rotate</string>
    </property>
   </action>
-  <action name="action_zoomOut">
+  <action name="action_crop">
    <property name="icon">
     <iconset resource="res.qrc">
-     <normaloff>:/zoom/icon/zoom_out.png</normaloff>:/zoom/icon/zoom_out.png</iconset>
+     <normaloff>:/preprosessing/icon/crop.png</normaloff>:/preprosessing/icon/crop.png</iconset>
    </property>
    <property name="text">
-    <string>Zoom Out</string>
+    <string>Crop</string>
    </property>
    <property name="toolTip">
-    <string>Zoom Out</string>
+    <string>Crop</string>
    </property>
   </action>
-  <action name="action_zoomToActualSize">
+  <action name="action_hue">
    <property name="icon">
     <iconset resource="res.qrc">
-     <normaloff>:/zoom/icon/zoom_to_actual_size.png</normaloff>:/zoom/icon/zoom_to_actual_size.png</iconset>
+     <normaloff>:/preprosessing/icon/hue.png</normaloff>:/preprosessing/icon/hue.png</iconset>
    </property>
    <property name="text">
-    <string>Zoom to actual size</string>
+    <string>Hue</string>
    </property>
    <property name="toolTip">
-    <string>Zoom to actual size</string>
+    <string>Hue</string>
    </property>
   </action>
-  <action name="action_zoomToExtents">
+  <action name="action_inverse">
    <property name="icon">
     <iconset resource="res.qrc">
-     <normaloff>:/zoom/icon/zoom_to_extents.png</normaloff>:/zoom/icon/zoom_to_extents.png</iconset>
+     <normaloff>:/preprosessing/icon/invert.png</normaloff>:/preprosessing/icon/invert.png</iconset>
    </property>
    <property name="text">
-    <string>Zoom to extents</string>
+    <string>Inverse</string>
    </property>
    <property name="toolTip">
-    <string>Zoom to extents</string>
+    <string>Inverse</string>
    </property>
   </action>
   <action name="action_openFile">
@@ -143,9 +744,90 @@
     <string>Open image file</string>
    </property>
   </action>
+  <action name="action_erase">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/preprosessing/icon/erase.png</normaloff>:/preprosessing/icon/erase.png</iconset>
+   </property>
+   <property name="text">
+    <string>Erase</string>
+   </property>
+   <property name="toolTip">
+    <string>Erase</string>
+   </property>
+  </action>
+  <action name="action_resize">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/preprosessing/icon/resize.png</normaloff>:/preprosessing/icon/resize.png</iconset>
+   </property>
+   <property name="text">
+    <string>Resize</string>
+   </property>
+   <property name="toolTip">
+    <string>Resize</string>
+   </property>
+  </action>
+  <action name="action_flipHorizontal">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/preprosessing/icon/flip_horizontal.png</normaloff>:/preprosessing/icon/flip_horizontal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Flip Horizontal</string>
+   </property>
+   <property name="toolTip">
+    <string>Flip Horizontal</string>
+   </property>
+  </action>
+  <action name="action_textBox">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/preprosessing/icon/text_box.png</normaloff>:/preprosessing/icon/text_box.png</iconset>
+   </property>
+   <property name="text">
+    <string>Text Box</string>
+   </property>
+   <property name="toolTip">
+    <string>Text Box</string>
+   </property>
+  </action>
  </widget>
  <resources>
   <include location="res.qrc"/>
  </resources>
- <connections/>
+ <connections>
+  <connection>
+   <sender>horizontalSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>479</x>
+     <y>89</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>644</x>
+     <y>88</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>95</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>580</x>
+     <y>93</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

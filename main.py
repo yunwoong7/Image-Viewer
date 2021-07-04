@@ -7,7 +7,7 @@ from config import get_config
 from libs.version import __version__
 
 __appname__ = 'Image Viewer'
-form_class = uic.loadUiType("UI/image_viewer_main.ui")[0]
+form_class = uic.loadUiType("UI/image_viewer_main2.ui")[0]
 
 class MainWindow(QMainWindow, form_class):
     def __init__(self):

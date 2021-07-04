@@ -5,10 +5,28 @@
     <file>icon/zoom_to_actual_size.png</file>
     <file>icon/zoom_to_extents.png</file>
   </qresource>
+  <qresource prefix="preprosessing">
+    <file>icon/eye_checked.png</file>
+    <file>icon/eye_unchecked.png</file>
+    <file>icon/flip_horizontal.png</file>
+    <file>icon/flip_vertical.png</file>
+    <file>icon/resize.png</file>
+    <file>icon/text_box.png</file>
+    <file>icon/crop.png</file>
+    <file>icon/rotate.png</file>
+    <file>icon/invert.png</file>
+    <file>icon/hue.png</file>
+    <file>icon/erase.png</file>
+  </qresource>
   <qresource prefix="main">
     <file>icon/main.png</file>
   </qresource>
   <qresource prefix="file">
+    <file>icon/image.png</file>
     <file>icon/open_image.png</file>
+  </qresource>
+  <qresource prefix="folder">
+    <file>icon/hdd.png</file>
+    <file>icon/opened_folder.png</file>
   </qresource>
 </RCC>
